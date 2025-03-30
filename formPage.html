@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Codify|Admin</title>
+</head>
+<body class="flex h-screen">
+    <aside class="w-64 bg-blue-600 text-white p-5">
+        <h1 class="text-xl font-bold mb-4">Codify|Admin</h1>
+        <nav>
+            <ul>
+                <li class="mb-2"><a href="/Dashboard.html" class="block py-2 px-4 rounded hover:bg-blue-700">Dashboard</a></li>
+                <li class="mb-2"><a href="/login.html" class="block py-2 px-4 rounded hover:bg-blue-700">Login Page</a></li>
+                <li class="mb-2"><a href="/register.html" class="block py-2 px-4 rounded hover:bg-blue-700">Register Page</a></li>
+                <li><a href="/formPage.html" class="block py-2 px-4 rounded hover:bg-blue-700">Form Page</a></li>
+                <li><a href="table.html" class="block py-2 px-4 rounded hover:bg-blue-700">Table Page</a></li>
+                <li><a href="/error401.html" class="block py-2 px-4 rounded hover:bg-blue-700">error 401 Page</a></li>
+                <li><a href="/error403.html" class="block py-2 px-4 rounded hover:bg-blue-700">error 403 Page</a></li>
+                <li><a href="/error404.html" class="block py-2 px-4 rounded hover:bg-blue-700">error 404 Page</a></li>
+                <li><a href="/error500.html" class="block py-2 px-4 rounded hover:bg-blue-700">error 500 Page</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="flex-1 p-10">
+        <div class="bg-white p-8 rounded shadow-md w-96">
+            <h2 class="text-2xl font-bold mb-4 text-center">Example Form</h2>
+            <form>
+                <!-- Text Input -->
+                <label class="block mb-2">Full Name</label>
+                <input type="text" class="w-full p-2 border rounded mb-4" placeholder="Enter your name">
+                
+                <!-- Dropdown -->
+                <label class="block mb-2">Position</label>
+                <select class="w-full p-2 border rounded mb-4">
+                    <option>Developer</option>
+                    <option>Designer</option>
+                    <option>Manager</option>
+                    <option>Other</option>
+                </select>
+                
+                <!-- Textarea -->
+                <label class="block mb-2">Address</label>
+                <textarea class="w-full p-2 border rounded mb-4" rows="3" placeholder="Enter your address"></textarea>
+                
+                <!-- Radio Buttons -->
+                <label class="block mb-2">Gender</label>
+                <div class="mb-4">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="gender" class="mr-2"> Male
+                    </label>
+                    <label class="inline-flex items-center ml-4">
+                        <input type="radio" name="gender" class="mr-2"> Female
+                    </label>
+                </div>
+                
+                <!-- Checkbox -->
+                <div class="mb-4">
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" class="mr-2"> I agree to the terms and conditions
+                    </label>
+                </div>
+                
+                <button class="bg-blue-500 text-white w-full py-2 rounded">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer class="absolute bottom-0 w-full bg-blue-700 text-white text-center py-2">
+        <p>Copyright © Codify Admin 2025</p>
+    </footer>
+</body>
+</html>
