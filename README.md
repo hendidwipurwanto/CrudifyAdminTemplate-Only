@@ -1,4 +1,4 @@
-# Crudify Admin Template ONLY
+# Crudify Admin Template Tailwindcss
 
 This Private project template includes a sidebar navigation built with Tailwind CSS, Datatable and standard error pages (401, 403, 404, 500).
 
